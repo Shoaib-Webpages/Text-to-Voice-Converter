@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' , sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: url(pngtree-rainbow-curves-abstract-colorful-background-image_2164067.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    color: aqua;
+}
+textarea{
+    width: 600px;
+    height: 270px;
+    background: #7ce04d;
+    color: #000000;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 15%;
+    resize: none;
+    margin-bottom: 30px;
+}
+textarea::placeholder{
+    font-size: 20px;
+    color: #ff4800;
+}
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+button{
+    background: url(images.jpg);
+    color: #fffb00ea;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 30%;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+select{
+    flex: 1;
+    color: aqua;
+    background: #832996;
+    height: 50px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 25%;
+}
